@@ -20,7 +20,7 @@ Plug 'othree/html5.vim'
 Plug 'iamcco/coc-tailwindcss'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'sheerun/vim-polyglot'
-
+Plug 'APZelos/blamer.nvim'
 
 call plug#end()
 
@@ -384,7 +384,11 @@ highlight link htmlEndTag htmlTagName
 let g:vim_jsx_pretty_colorful_config = 1
 let g:vim_jsx_pretty_highlight_close_tag = 0
 let g:vim_jsx_pretty_colorful_config = 1 " default 0
-"----------------JS-----------------------
+
+"----------------Blamer-----------------------
+let g:blamer_enabled = 1
+let g:blamer_delay = 500
+let g:blamer_prefix = ' ☘️  '
 
 
 
